@@ -1,9 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(express.static(__dirname));
-app.use('/images', express.static('images'));
+app.use('/images', express.static(__dirname + '/images'));
 
 const menu = [
     {
@@ -594,5 +596,5 @@ app.get('/api/menu', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running at http://localhost:${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });
