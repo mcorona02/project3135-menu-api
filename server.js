@@ -595,6 +595,8 @@ app.get('/menu', (req, res) => {
     res.json(menu);
 });
 
+app.use('/images', express.static('images'));
+
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server running on http://localhost:${PORT}`);
 });
