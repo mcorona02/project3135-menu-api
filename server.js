@@ -12,7 +12,7 @@ const menu = [
         id: 1,
         name: "Creamy Hot Chocolate",
         description: "Brewed with cocoa powder created from sweet kukuru beans, this warm winter beverage is made all the sweeter with a dollop of our plant-based whipped cream.",
-        image: "/drinks/creamy-hot-chocolate.png",
+        image: "images/drinks/creamy-hot-chocolate.png",
         category: "drinks"
     },
     {
@@ -320,7 +320,7 @@ const menu = [
         id: 45,
         name: "Spicy Shakshuka",
         description: "A hearty and delicious meal for any mealtime, its base is a flavorful, rich tomato sauce filled with potent spices, in which two eggs of Elpis have been perfectly poached.",
-        image: "images/entrees/spicy-shakshuka.png",
+        image: "images/entrees/spicy-shakshouka.png",
         category: "entrees"
     },
     {
